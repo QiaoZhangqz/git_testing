@@ -23,3 +23,17 @@ git push --set-upstream origin <sub branch name>
 //create a new branch on Local
 //push this new branch to remote(origin) repository
 //under the <sub branch name> branch
+
+git init
+git remote add origin https://github.com/QiaoZhangqz/git_testing.git
+//default branch is master after init
+//after creating a new empty folder, connect origin to this folder
+//to pull/push, there are two ways
+1.  git pull origin master 
+    //git pull <remote repo name> <remote branch name>
+    //pull remote repo branch content to your local repo branch
+    git push --set-upstream origin master
+2.  git branch --set-upstream-to=origin/<branch> testbranch
+    //git branch --set-upstream-to=origin/<remote branch> <local branch>
+    git pull/push
+
