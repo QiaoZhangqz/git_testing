@@ -36,5 +36,3 @@ git remote add origin https://github.com/QiaoZhangqz/git_testing.git
 2.  git branch --set-upstream-to=origin/testbranch testbranch
     //git branch --set-upstream-to=origin/<remote branch> <local branch>
     git pull/push
-
-    
