@@ -1,0 +1,21 @@
+git init    //Initialize Local Git Repository
+git add<file>   //Add files to staging area
+git status  //Check Status of Working Tree
+git commit -m "commit content"  //Commit Changes in staging area
+git push    //Push to remote repository
+git pull    //Pull latest from remote repository
+git clone   //Copy remote repository to your current folder
+git config --global user.name 'Qiao Zhang'
+git config --global user.email 'qzhang3@webershandwick.com'
+git rm --cached <file>  //remove a file from staging area
+
+git add *.html  //add any kind of html file
+git add .   //add everything
+git branch <branch name>    //create a new branch
+git checkout <branch name>      //switch to this branch(<branch name>)
+git merge <branch name>     //use gitcheckout to switch back to master, and then git merge this branch <branch name> back to master
+
+git remote add origin https://github.com/QiaoZhangqz/git_testing.git
+//add this repository as a remote repository
+git push -u origin master   //push to remote repository
+
