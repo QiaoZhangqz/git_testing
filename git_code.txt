@@ -33,7 +33,10 @@ git remote add origin https://github.com/QiaoZhangqz/git_testing.git
     //git pull <remote repo name> <remote branch name>
     //pull remote repo branch content to your local repo branch
     git push --set-upstream origin master
-2.  git branch --set-upstream-to=origin/<branch> testbranch
+    //git push --set-upstream origin <exist branch in origin>
+    //if the branch does not exist, it would create a new pull request
+2.  git branch --set-upstream-to=origin/testbranch testbranch
     //git branch --set-upstream-to=origin/<remote branch> <local branch>
+    //local branch must exist
     git pull/push
 
